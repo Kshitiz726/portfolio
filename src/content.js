@@ -272,6 +272,33 @@ export const achievements = [
     ],
   },
   {
+    title: 'Data Visualization with Python',
+    awarder: 'IBM Developer Skills Network (cognitiveclass.ai)',
+    year: '2026',
+    detail: 'Course DV0101EN, completed with a passing grade.',
+    media: [
+      {
+        src: '/certificates/ibm-data-visualization.png',
+        caption: 'Data Visualization with Python certificate, issued 19 July 2026',
+        url: 'https://courses.cognitiveclass.ai/certificates/8584e5c0d33f4f4c8ac2b66f94673d92',
+      },
+    ],
+  },
+  {
+    title: 'Elements of AI',
+    awarder: 'University of Helsinki & MinnaLearn',
+    year: '2026',
+    detail: 'A 2 ECTS credit online course on the foundations of artificial intelligence.',
+    stats: ['2 ECTS credits'],
+    media: [
+      {
+        src: '/certificates/certificate-elements-of-ai.png',
+        caption: 'Elements of AI certificate of completion, issued 27 July 2026',
+        url: 'https://certificates.mooc.fi/validate/bxxhg1z8wmc',
+      },
+    ],
+  },
+  {
     title: 'Basic Web Design & Development',
     awarder: 'HUB IT Training & Solution, Butwal',
     // The course ran Apr–Jul 2019; the certificate was issued 29/09/2021.
