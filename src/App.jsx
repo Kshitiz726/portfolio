@@ -9,7 +9,6 @@ import {
   research,
   projects,
   experience,
-  skills,
   achievements,
   certifications,
   writing,
@@ -21,7 +20,6 @@ const SECTIONS = [
   { id: 'research', label: 'Research' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'skills', label: 'Skills' },
   { id: 'awards', label: 'Awards' },
   { id: 'contact', label: 'Contact' },
 ]
@@ -338,26 +336,7 @@ function Home() {
           )}
         </Section>
 
-        <Section id="skills" label="05" title="Skills">
-          {skills.length ? (
-            <div className="skills">
-              {skills.map((g) => (
-                <div key={g.group} className="skills__group">
-                  <h4 className="skills__label">{g.group}</h4>
-                  <ul className="tags">
-                    {g.items.map((i) => (
-                      <li key={i}>{i}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <Empty what="skills" field="skills" />
-          )}
-        </Section>
-
-        <Section id="awards" label="06" title="Achievements & Certifications">
+        <Section id="awards" label="05" title="Achievements & Certifications">
           {achievements.length ? (
             <ul className="stack">
               {achievements.map((a) => (
@@ -395,7 +374,7 @@ function Home() {
           )}
         </Section>
 
-        <Section id="contact" label="07" title="Contact">
+        <Section id="contact" label="06" title="Contact">
           {profile.email ? (
             <>
               <p className="prose">The fastest way to reach me is email.</p>
