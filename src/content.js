@@ -299,6 +299,20 @@ export const achievements = [
     ],
   },
   {
+    title: 'Critical Thinking for Better Judgment and Decision-Making',
+    awarder: 'LinkedIn Learning',
+    year: '2026',
+    detail: 'A course on critical thinking and decision-making, completed 28 July 2026.',
+    media: [
+      {
+        src: '/certificates/critical_thinking.png',
+        caption:
+          'Critical Thinking for Better Judgment and Decision-Making certificate, completed 28 July 2026',
+        url: 'https://www.linkedin.com/learning/certificates/422d1e18e644ee1ca84a4867bfda20c41e154e89efdc324a878a497c6aa2846c',
+      },
+    ],
+  },
+  {
     title: 'Basic Web Design & Development',
     awarder: 'HUB IT Training & Solution, Butwal',
     // The course ran Apr–Jul 2019; the certificate was issued 29/09/2021.
