@@ -307,6 +307,19 @@ export const certifications = [
     ],
   },
   {
+    title: 'Developing Applications with Apache Spark™',
+    awarder: 'Databricks Academy',
+    year: '2026',
+    detail: 'A Databricks Academy course on building applications with Apache Spark.',
+    media: [
+      {
+        src: '/certificates/databricks.png',
+        caption:
+          'Developing Applications with Apache Spark certificate, completed 28 July 2026',
+      },
+    ],
+  },
+  {
     title: 'Advanced SQL for Query Tuning and Performance Optimization',
     awarder: 'LinkedIn Learning',
     year: '2026',
