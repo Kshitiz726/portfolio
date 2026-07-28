@@ -755,9 +755,16 @@ function CertCard({ cert, onOpen }) {
       <div className="certcard__body">
         <h5 className="certcard__title">{cert.title}</h5>
         <p className="certcard__sub">
-          {cert.awarder}
+          <strong className="certcard__awarder">{cert.awarder}</strong>
           {cert.year ? ` · ${cert.year}` : ''}
         </p>
+        {cert.stats?.length > 0 && (
+          <ul className="stats">
+            {cert.stats.map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ul>
+        )}
         {verifiable && (
           <a
             className="cert__verify"

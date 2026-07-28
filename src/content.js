@@ -279,19 +279,6 @@ export const certifications = [
     ],
   },
   {
-    title: 'Data Visualization with Python',
-    awarder: 'IBM Developer Skills Network (cognitiveclass.ai)',
-    year: '2026',
-    detail: 'Course DV0101EN, completed with a passing grade.',
-    media: [
-      {
-        src: '/certificates/ibm-data-visualization.png',
-        caption: 'Data Visualization with Python certificate, issued 19 July 2026',
-        url: 'https://courses.cognitiveclass.ai/certificates/8584e5c0d33f4f4c8ac2b66f94673d92',
-      },
-    ],
-  },
-  {
     title: 'Elements of AI',
     awarder: 'University of Helsinki & MinnaLearn',
     year: '2026',
@@ -302,6 +289,20 @@ export const certifications = [
         src: '/certificates/certificate-elements-of-ai.png',
         caption: 'Elements of AI certificate of completion, issued 27 July 2026',
         url: 'https://certificates.mooc.fi/validate/bxxhg1z8wmc',
+      },
+    ],
+  },
+  {
+    title: 'Data Visualization with Python',
+    awarder: 'IBM Developer Skills Network (cognitiveclass.ai)',
+    year: '2026',
+    detail: 'Course DV0101EN, completed with a passing grade.',
+    stats: ['DV0101EN'],
+    media: [
+      {
+        src: '/certificates/ibm-data-visualization.png',
+        caption: 'Data Visualization with Python certificate, issued 19 July 2026',
+        url: 'https://courses.cognitiveclass.ai/certificates/8584e5c0d33f4f4c8ac2b66f94673d92',
       },
     ],
   },

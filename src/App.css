@@ -1130,6 +1130,13 @@
   color: var(--text-faint);
 }
 
+/* Pull the institution forward so the name (Harvard, Helsinki, IBM…) reads
+   at a glance against the faint year that follows it. */
+.certcard__awarder {
+  font-weight: 700;
+  color: var(--text);
+}
+
 .certcard .cert__verify {
   margin-top: var(--space-1);
 }
