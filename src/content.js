@@ -294,7 +294,7 @@ export const certifications = [
   },
   {
     title: 'Data Visualization with Python',
-    awarder: 'IBM Developer Skills Network (cognitiveclass.ai)',
+    awarder: 'IBM Developer Skills Network',
     year: '2026',
     detail: 'Course DV0101EN, completed with a passing grade.',
     stats: ['DV0101EN'],
@@ -328,7 +328,7 @@ export const certifications = [
     year: '2019',
     detail:
       'A three-month course completed with grade A, held from 10 April to 16 July 2019. Certificate issued 2021.',
-    stats: ['3-month course', '10 Apr to 16 Jul 2019', 'Grade A'],
+    stats: ['3-month course', 'Grade A'],
     media: [
       {
         src: '/certificates/basic_web.jpg',
