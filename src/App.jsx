@@ -11,6 +11,7 @@ import {
   experience,
   skills,
   achievements,
+  certifications,
   writing,
 } from './content'
 import './App.css'
@@ -356,7 +357,7 @@ function Home() {
           )}
         </Section>
 
-        <Section id="awards" label="06" title="Achievements">
+        <Section id="awards" label="06" title="Achievements & Certifications">
           {achievements.length ? (
             <ul className="stack">
               {achievements.map((a) => (
@@ -380,6 +381,17 @@ function Home() {
             </ul>
           ) : (
             <Empty what="achievements" field="achievements" />
+          )}
+
+          {certifications.length > 0 && (
+            <div className="certs">
+              <h4 className="certs__label">Certifications</h4>
+              <div className="certgrid">
+                {certifications.map((c) => (
+                  <CertCard key={c.title} cert={c} onOpen={openViewer} />
+                ))}
+              </div>
+            </div>
           )}
         </Section>
 
@@ -703,6 +715,49 @@ function MediaStrip({ media, onOpen }) {
         >
           {media.length > 1 ? `View all (${media.length})` : 'View certificate'}
         </button>
+        {verifiable && (
+          <a
+            className="cert__verify"
+            href={verifiable.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Verify online →
+          </a>
+        )}
+      </div>
+    </div>
+  )
+}
+
+/**
+ * Compact card for a single course/certificate, laid out in a grid so the
+ * lighter-weight credentials don't stretch the page the way full stacked
+ * entries would. The thumbnail opens the same lightbox as MediaStrip.
+ */
+function CertCard({ cert, onOpen }) {
+  const thumb = cert.media?.[0]
+  const verifiable = cert.media?.find((m) => m.url)
+
+  return (
+    <div className="certcard">
+      {thumb && (
+        <button
+          type="button"
+          className="certcard__thumb"
+          onClick={() => onOpen(cert.media, 0)}
+          aria-label={`View: ${thumb.caption}`}
+        >
+          <img src={thumb.src} alt="" loading="lazy" />
+          <span className="cert__thumb-hint">View</span>
+        </button>
+      )}
+      <div className="certcard__body">
+        <h5 className="certcard__title">{cert.title}</h5>
+        <p className="certcard__sub">
+          {cert.awarder}
+          {cert.year ? ` · ${cert.year}` : ''}
+        </p>
         {verifiable && (
           <a
             className="cert__verify"

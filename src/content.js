@@ -242,6 +242,13 @@ export const achievements = [
       },
     ],
   },
+]
+
+/* Online courses and professional certificates. Rendered as a compact grid
+   beneath the achievements, since these are lighter-weight than the awards
+   above and there are enough of them to bloat a single stacked list. Each
+   carries a public verification link. */
+export const certifications = [
   {
     title: 'CS50AI: Introduction to Artificial Intelligence with Python',
     awarder: 'Harvard University',
