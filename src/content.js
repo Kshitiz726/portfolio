@@ -299,16 +299,17 @@ export const achievements = [
     ],
   },
   {
-    title: 'Critical Thinking for Better Judgment and Decision-Making',
+    title: 'Advanced SQL for Query Tuning and Performance Optimization',
     awarder: 'LinkedIn Learning',
     year: '2026',
-    detail: 'A course on critical thinking and decision-making, completed 28 July 2026.',
+    detail: 'A course on SQL query tuning and performance optimization, completed 28 July 2026.',
+    stats: ['SQL'],
     media: [
       {
-        src: '/certificates/critical_thinking.png',
+        src: '/certificates/advance_sql.png',
         caption:
-          'Critical Thinking for Better Judgment and Decision-Making certificate, completed 28 July 2026',
-        url: 'https://www.linkedin.com/learning/certificates/422d1e18e644ee1ca84a4867bfda20c41e154e89efdc324a878a497c6aa2846c',
+          'Advanced SQL for Query Tuning and Performance Optimization certificate, completed 28 July 2026',
+        url: 'https://www.linkedin.com/learning/certificates/61597b3fd25643c89c2dc02ba0fb4eae8cf17d98bcc77eef70d78935adbba527',
       },
     ],
   },
