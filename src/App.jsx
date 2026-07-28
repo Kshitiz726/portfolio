@@ -756,7 +756,6 @@ function CertCard({ cert, onOpen }) {
         <h5 className="certcard__title">{cert.title}</h5>
         <p className="certcard__sub">
           <strong className="certcard__awarder">{cert.awarder}</strong>
-          {cert.year ? ` · ${cert.year}` : ''}
         </p>
         {cert.stats?.length > 0 && (
           <ul className="stats">

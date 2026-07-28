@@ -280,7 +280,7 @@ export const certifications = [
   },
   {
     title: 'Elements of AI',
-    awarder: 'University of Helsinki & MinnaLearn',
+    awarder: 'University of Helsinki',
     year: '2026',
     detail: 'A 2 ECTS credit online course on the foundations of artificial intelligence.',
     stats: ['2 ECTS credits'],
@@ -311,7 +311,6 @@ export const certifications = [
     awarder: 'LinkedIn Learning',
     year: '2026',
     detail: 'A course on SQL query tuning and performance optimization, completed 28 July 2026.',
-    stats: ['SQL'],
     media: [
       {
         src: '/certificates/advance_sql.png',
