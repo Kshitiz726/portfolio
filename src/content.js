@@ -76,20 +76,6 @@ export const education = [
 
 export const research = [
   {
-    title: 'Multimodal AI System for Clip Extraction from Long Videos',
-    authors: [{ name: 'Kshitiz Raj Paudyal', corresponding: true }],
-    venue: 'Manuscript in preparation, based on the undergraduate final year project',
-    year: '2026',
-    status: 'Ongoing',
-    media: [
-      {
-        src: '/certificates/best_project_conference.jpg',
-        caption:
-          'Certificate of appreciation for selection as one of the best final year projects and presentation at the 4th Thapathali Graduate Conference',
-      },
-    ],
-  },
-  {
     title:
       'Spatiotemporal PM2.5 Estimation in Kathmandu Using Deep Learning with OpenMeteo and NASA MERRA-2 Data: Performance Benchmarking Against Machine Learning Model',
     // Order as printed on the paper. `corresponding: true` renders a
@@ -116,6 +102,21 @@ export const research = [
       },
     ],
   },
+  {
+    title: 'Multimodal AI System for Clip Extraction from Long Videos',
+    authors: [{ name: 'Kshitiz Raj Paudyal', corresponding: true }],
+    venue: 'Manuscript in preparation, based on the undergraduate final year project',
+    year: '2026',
+    status: 'Ongoing',
+    url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
+    media: [
+      {
+        src: '/certificates/best_project_conference.jpg',
+        caption:
+          'Certificate of appreciation for selection as one of the best final year projects and presentation at the 4th Thapathali Graduate Conference',
+      },
+    ],
+  },
 ]
 
 export const projects = [
@@ -124,7 +125,7 @@ export const projects = [
     summary:
       'A cross-platform ADHD-focused productivity, wellness, and community app built on a single idea: plan your day by energy, not priority, inside a deliberately low-stimulation interface. Tasks are grouped by energy level so you take on work that matches how you feel, and the whole UI can desaturate and quiet itself on demand.',
     outcome:
-      'Co-founded venture launching soon at ourmynd.com. Registered as a UK trademark (No. UK00004421008).',
+      'Launching soon at ourmynd.com. Registered as a UK trademark (No. UK00004421008).',
     stack: [
       'Flutter (Android, iOS, web, desktop)',
       'Node.js',
@@ -136,7 +137,7 @@ export const projects = [
       'Stripe',
       'Fly.io',
     ],
-    repo: '',
+    repo: 'https://github.com/Kshitiz726/Mynd-APP',
     demo: 'https://ourmynd.com',
     demoLabel: 'ourmynd.com',
   },
@@ -146,9 +147,9 @@ export const projects = [
       'Takes a long video and pulls out the short clips worth keeping. It scores each scene on three channels at once, what is shown, what is said, and what is heard, then fuses those scores to rank the strongest moments and cut them automatically.',
     outcome:
       'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026.',
-    stack: [], // TODO
-    repo: '', // TODO
-    demo: '', // TODO (optional)
+    stack: ['Python', 'BERT', 'Multimodal deep learning'],
+    repo: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
+    demo: '',
     // Inline click-to-play player; videoStart jumps in at 3:35 (215s).
     video: 'MG6cTkaCo7Y',
     videoStart: 215,
@@ -159,8 +160,8 @@ export const projects = [
       'Reconstructed high-resolution historical PM2.5 concentrations from Open-Meteo weather data and NASA MERRA-2 satellite reanalysis, benchmarking a deep neural network against XGBoost.',
     outcome:
       'The DNN reached R² = 0.8725 (RMSE 18.23 µg/m³) on hourly data; XGBoost performed best on daily data. Published in InJET.',
-    stack: [], // TODO — confirm before this goes live
-    repo: '', // TODO (optional)
+    stack: ['Python', 'TensorFlow', 'XGBoost'],
+    repo: 'https://github.com/Kshitiz726/spatiotemporal-pm25-estimation',
     demo: 'https://doi.org/10.3126/injet.v3i1.87012',
     demoLabel: 'Read research paper',
   },
@@ -169,12 +170,20 @@ export const projects = [
     summary:
       'An interactive explorer for fractals like the Mandelbrot and Julia sets. It renders the underlying maths in real time, so you can zoom in and watch endless detail appear from a handful of simple equations.',
     outcome: 'Final project for Harvard CS50x.',
-    stack: [], // TODO
-    repo: '', // TODO
+    stack: [],
+    repo: 'https://github.com/Kshitiz726/Fractal_Visualizer',
     demo: '', // TODO (optional)
     // A YouTube video id renders an inline click-to-play player at the top of
     // the card. From https://youtu.be/oTZYG4s-0h0
     video: 'oTZYG4s-0h0',
+  },
+  {
+    name: 'Yathartha Event Card Creator',
+    summary:
+      'A web tool that generates personalized, on-brand event and speaker cards for the Yathartha Tech Fest, so organizers produce consistent graphics in seconds instead of designing each one by hand.',
+    stack: [],
+    repo: 'https://github.com/Kshitiz726/yathartha-event-card-creator',
+    demo: '',
   },
 ]
 
