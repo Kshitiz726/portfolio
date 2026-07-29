@@ -166,6 +166,14 @@ export const projects = [
     demoLabel: 'Read research paper',
   },
   {
+    name: 'Motion Analyzer',
+    summary:
+      'Detects and analyzes motion in video in real time, pairing a TensorFlow CNN with optical flow to flag moving objects, estimate their speed, and render motion heatmaps. Results stream to an interactive Flask dashboard with object counts and zone-based activity analytics.',
+    stack: ['Python', 'TensorFlow', 'OpenCV', 'Flask'],
+    repo: 'https://github.com/Kshitiz726/motion_analyser',
+    demo: '',
+  },
+  {
     name: 'Fractal Visualizer',
     summary:
       'An interactive explorer for fractals like the Mandelbrot and Julia sets. It renders the underlying maths in real time, so you can zoom in and watch endless detail appear from a handful of simple equations.',
