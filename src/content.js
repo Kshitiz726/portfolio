@@ -35,7 +35,7 @@ For a master's, I am drawn to where mathematics meets AI: machine learning, appl
   location: 'Kathmandu, Nepal',
   email: 'kshitizrajpaudyal@gmail.com',
   phone: '+977 9742899808',
-  resume: '', // TODO: drop the PDF in public/ and put the filename here, e.g. '/kshitiz-raj-paudyal-cv.pdf'
+  resume: '/cv.html', // Print-ready CV page in public/; open it and use the browser's Print to PDF for a file copy.
   // Full-length campus portrait, shown beside the name in the hero.
   photo: '/campus.jpg',
   photoAlt: 'Kshitiz Raj Paudyal at the Institute of Engineering, Thapathali Campus',
@@ -76,6 +76,20 @@ export const education = [
 
 export const research = [
   {
+    title: 'Multimodal AI System for Clip Extraction from Long Videos',
+    authors: [{ name: 'Kshitiz Raj Paudyal', corresponding: true }],
+    venue: 'Manuscript in preparation, based on the undergraduate final year project',
+    year: '2026',
+    status: 'Ongoing',
+    media: [
+      {
+        src: '/certificates/best_project_conference.jpg',
+        caption:
+          'Certificate of appreciation for selection as one of the best final year projects and presentation at the 4th Thapathali Graduate Conference',
+      },
+    ],
+  },
+  {
     title:
       'Spatiotemporal PM2.5 Estimation in Kathmandu Using Deep Learning with OpenMeteo and NASA MERRA-2 Data: Performance Benchmarking Against Machine Learning Model',
     // Order as printed on the paper. `corresponding: true` renders a
@@ -105,6 +119,27 @@ export const research = [
 ]
 
 export const projects = [
+  {
+    name: 'OurMynd: ADHD Productivity, Wellness and Community App',
+    summary:
+      'A cross-platform ADHD-focused productivity, wellness, and community app built on a single idea: plan your day by energy, not priority, inside a deliberately low-stimulation interface. Tasks are grouped by energy level so you take on work that matches how you feel, and the whole UI can desaturate and quiet itself on demand.',
+    outcome:
+      'Co-founded venture launching soon at ourmynd.com. Registered as a UK trademark (No. UK00004421008).',
+    stack: [
+      'Flutter (Android, iOS, web, desktop)',
+      'Node.js',
+      'TypeScript',
+      'Socket.IO',
+      'Supabase / Postgres',
+      'Redis',
+      'LiveKit',
+      'Stripe',
+      'Fly.io',
+    ],
+    repo: '',
+    demo: 'https://ourmynd.com',
+    demoLabel: 'ourmynd.com',
+  },
   {
     name: 'Multimodal AI System for Clip Extraction from Long Videos',
     summary:
@@ -144,6 +179,15 @@ export const projects = [
 ]
 
 export const experience = [
+  {
+    role: 'Outreach Manager and Developer (Freelance, Remote)',
+    org: 'The Social Globe, United Kingdom (Company No. 13923693)',
+    period: 'Oct 2025 to Jun 2026',
+    points: [
+      'Managed outreach and communications remotely for the UK-registered company as a freelance Outreach Manager.',
+      'Contributed to website and application development alongside outreach responsibilities.',
+    ],
+  },
   {
     role: 'Campus Ambassador',
     org: 'LOCUS 2025, 21st National Technological Festival, IOE Pulchowk Campus',

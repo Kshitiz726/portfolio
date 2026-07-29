@@ -604,8 +604,13 @@ function Hero({ links }) {
 
           <div className="hero__actions">
             {profile.resume && (
-              <a className="btn btn--primary" href={profile.resume} download>
-                Download résumé
+              <a
+                className="btn btn--primary"
+                href={profile.resume}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View CV
               </a>
             )}
             {profile.email && (

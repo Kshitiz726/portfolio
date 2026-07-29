@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kshitiz Raj Paudyal - Curriculum Vitae</title>
+    <style>
+      :root {
+        --ink: #1a1a1a;
+        --muted: #555;
+        --faint: #777;
+        --accent: #14312e;
+        --rule: #d9d9d9;
+        --bg: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 15px;
+      }
+
+      body {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background: #ececec;
+        line-height: 1.5;
+      }
+
+      .page {
+        max-width: 820px;
+        margin: 24px auto;
+        background: var(--bg);
+        padding: 56px 60px;
+        box-shadow: 0 2px 18px rgba(0, 0, 0, 0.14);
+      }
+
+      /* ------------------------------- header ------------------------------ */
+      header {
+        border-bottom: 3px solid var(--accent);
+        padding-bottom: 16px;
+        margin-bottom: 22px;
+      }
+
+      .name {
+        font-size: 2.35rem;
+        letter-spacing: 0.01em;
+        color: var(--accent);
+        font-weight: 700;
+        line-height: 1.1;
+      }
+
+      .role-line {
+        margin-top: 6px;
+        font-size: 1.02rem;
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .contact {
+        margin-top: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.82rem;
+        color: var(--muted);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 16px;
+      }
+
+      .contact a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+
+      .contact a:hover {
+        text-decoration: underline;
+      }
+
+      /* ------------------------------ sections ----------------------------- */
+      section {
+        margin-top: 22px;
+      }
+
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.82rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+      }
+
+      .summary {
+        font-size: 0.98rem;
+        color: #333;
+      }
+
+      .item {
+        margin-bottom: 14px;
+      }
+
+      .item:last-child {
+        margin-bottom: 0;
+      }
+
+      .item__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 16px;
+      }
+
+      .item__title {
+        font-size: 1.02rem;
+        font-weight: 700;
+        color: var(--ink);
+      }
+
+      .item__meta {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color: var(--faint);
+        white-space: nowrap;
+      }
+
+      .item__sub {
+        font-size: 0.92rem;
+        color: var(--muted);
+        font-style: italic;
+        margin-top: 1px;
+      }
+
+      .item__body {
+        font-size: 0.93rem;
+        color: #333;
+        margin-top: 5px;
+      }
+
+      ul.points {
+        margin-top: 5px;
+        padding-left: 18px;
+      }
+
+      ul.points li {
+        font-size: 0.93rem;
+        color: #333;
+        margin-bottom: 2px;
+      }
+
+      .tag-row {
+        margin-top: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color: var(--faint);
+      }
+
+      .badge {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.68rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 1px 7px;
+        border-radius: 3px;
+        vertical-align: middle;
+        margin-left: 8px;
+      }
+
+      .badge--pub {
+        background: #14312e;
+        color: #fff;
+      }
+
+      .badge--ongoing {
+        background: #eae3d2;
+        color: #6b5a2e;
+      }
+
+      a.link {
+        color: var(--accent);
+        text-decoration: none;
+        border-bottom: 1px solid #bcd;
+      }
+
+      a.link:hover {
+        border-bottom-color: var(--accent);
+      }
+
+      .doi {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        margin-top: 3px;
+      }
+
+      /* -------------------------- skills / certs --------------------------- */
+      .grid2 {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 6px 14px;
+        font-size: 0.92rem;
+      }
+
+      .grid2 .k {
+        font-weight: 700;
+        color: var(--accent);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.82rem;
+        padding-top: 2px;
+      }
+
+      .cert-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+
+      .cert-item .c-title {
+        font-size: 0.95rem;
+      }
+
+      .cert-item .c-issuer {
+        font-style: italic;
+        color: var(--muted);
+      }
+
+      .print-hint {
+        max-width: 820px;
+        margin: 0 auto 0;
+        padding: 10px 60px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.78rem;
+        color: #888;
+        text-align: right;
+      }
+
+      .print-hint button {
+        font: inherit;
+        color: var(--accent);
+        background: none;
+        border: 1px solid var(--accent);
+        border-radius: 4px;
+        padding: 5px 12px;
+        cursor: pointer;
+      }
+
+      /* -------------------------------- print ------------------------------ */
+      @page {
+        margin: 14mm 15mm;
+      }
+
+      @media print {
+        html {
+          font-size: 10.5pt;
+        }
+        body {
+          background: #fff;
+        }
+        .page {
+          max-width: none;
+          margin: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+        .print-hint {
+          display: none;
+        }
+        section,
+        .item {
+          page-break-inside: avoid;
+        }
+        a.link,
+        .contact a {
+          color: var(--ink);
+          border-bottom: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="print-hint">
+      <button onclick="window.print()">Print or save as PDF</button>
+    </div>
+
+    <main class="page">
+      <header>
+        <div class="name">Kshitiz Raj Paudyal</div>
+        <div class="role-line">
+          Computer Engineer and Researcher. Machine Learning, Applied Mathematics, and Systems.
+        </div>
+        <div class="contact">
+          <span>Kathmandu, Nepal</span>
+          <span>+977 9742899808</span>
+          <a href="mailto:kshitizrajpaudyal@gmail.com">kshitizrajpaudyal@gmail.com</a>
+          <a href="https://kshitizrajpaudyal.com.np" target="_blank" rel="noreferrer"
+            >kshitizrajpaudyal.com.np</a
+          >
+          <a href="https://github.com/Kshitiz726" target="_blank" rel="noreferrer"
+            >github.com/Kshitiz726</a
+          >
+        </div>
+      </header>
+
+      <section>
+        <h2>Profile</h2>
+        <p class="summary">
+          Computer engineer and researcher with a first-author peer-reviewed publication and an
+          award-winning final year project. I work where machine learning, applied mathematics, and
+          core computing systems meet, building models that turn real-world data into reliable
+          predictions. Co-founder of OurMynd, an ADHD-focused productivity and wellness application.
+        </p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Bachelor of Engineering (B.E.), Computer Engineering</span>
+            <span class="item__meta">2022 to 2026</span>
+          </div>
+          <div class="item__sub">
+            Institute of Engineering, Thapathali Campus, Tribhuvan University
+          </div>
+          <div class="item__body">Aggregate 76.29 percent.</div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Higher Secondary Education (Science)</span>
+            <span class="item__meta">2019 to 2021</span>
+          </div>
+          <div class="item__sub">Oxford Secondary School</div>
+          <div class="item__body">GPA 3.50 (Grade 12), GPA 3.73 (Grade 11).</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research and Publications</h2>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">
+              Multimodal AI System for Clip Extraction from Long Videos
+              <span class="badge badge--ongoing">Ongoing</span>
+            </span>
+            <span class="item__meta">2026</span>
+          </div>
+          <div class="item__sub">Kshitiz Raj Paudyal</div>
+          <div class="item__body">
+            Manuscript in preparation, based on the undergraduate final year project. A system that
+            scores each scene of a long video across what is shown, said, and heard, then fuses those
+            signals to rank and automatically cut the strongest moments. Selected as one of the best
+            final year projects and presented at the 4th Thapathali Graduate Conference, June 2026.
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">
+              Spatiotemporal PM2.5 Estimation in Kathmandu Using Deep Learning with OpenMeteo and
+              NASA MERRA-2 Data
+              <span class="badge badge--pub">Published</span>
+            </span>
+            <span class="item__meta">2025</span>
+          </div>
+          <div class="item__sub">
+            Kshitiz Raj Paudyal (corresponding), Rajad Shakya, Jesis Upadhayaya
+          </div>
+          <div class="item__body">
+            International Journal on Engineering Technology (InJET), 3(1), 36-45, published by
+            Kantipur Engineering College. Benchmarked a deep neural network against XGBoost to
+            reconstruct historical PM2.5 concentrations, reaching R squared of 0.8725 (RMSE 18.23
+            micrograms per cubic meter) on hourly data.
+          </div>
+          <div class="doi">
+            DOI:
+            <a class="link" href="https://doi.org/10.3126/injet.v3i1.87012" target="_blank" rel="noreferrer"
+              >10.3126/injet.v3i1.87012</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected Projects and Ventures</h2>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">OurMynd, ADHD Productivity, Wellness and Community App</span>
+            <span class="item__meta">Launching soon</span>
+          </div>
+          <div class="item__sub">Co-founder and Developer</div>
+          <div class="item__body">
+            A cross-platform ADHD-focused app built on one idea: plan your day by energy, not
+            priority, inside a deliberately low-stimulation interface. Tasks group by energy level,
+            realtime Focus Rooms support body-doubling by voice, an in-app AI coach carries memory
+            across sessions, and a live accessibility profile tunes font, motion, and contrast on the
+            fly. Registered as a UK trademark (No. UK00004421008), launching at
+            <a class="link" href="https://ourmynd.com" target="_blank" rel="noreferrer">ourmynd.com</a>.
+          </div>
+          <div class="tag-row">
+            Flutter, Node.js, TypeScript, Socket.IO, Supabase and Postgres, Redis, LiveKit, Stripe,
+            Fly.io
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Multimodal AI System for Clip Extraction from Long Videos</span>
+            <span class="item__meta">2026</span>
+          </div>
+          <div class="item__body">
+            Final year project. Scores each scene on visual, spoken, and audio channels, then fuses
+            the scores to rank the strongest moments and cut them automatically. Selected as one of
+            the best final year projects and presented at the 4th Thapathali Graduate Conference.
+          </div>
+          <div class="tag-row">Python, Multimodal deep learning</div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">PM2.5 Reconstruction for the Kathmandu Valley</span>
+            <span class="item__meta">2025</span>
+          </div>
+          <div class="item__body">
+            Reconstructed high-resolution historical PM2.5 concentrations from Open-Meteo weather
+            data and NASA MERRA-2 satellite reanalysis, benchmarking a deep neural network against
+            XGBoost. Published in InJET.
+          </div>
+          <div class="tag-row">Python, TensorFlow, XGBoost, Time-series and geospatial data</div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Fractal Visualizer</span>
+            <span class="item__meta">2025</span>
+          </div>
+          <div class="item__body">
+            An interactive explorer for the Mandelbrot and Julia sets that renders the underlying
+            mathematics in real time. Final project for Harvard CS50x.
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Outreach Manager and Developer (Freelance, Remote)</span>
+            <span class="item__meta">Oct 2025 to Jun 2026</span>
+          </div>
+          <div class="item__sub">The Social Globe, United Kingdom (Company No. 13923693)</div>
+          <ul class="points">
+            <li>
+              Managed outreach and communications remotely for the UK-registered company as a
+              freelance Outreach Manager.
+            </li>
+            <li>Contributed to website and application development alongside outreach responsibilities.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Campus Ambassador</span>
+            <span class="item__meta">2025</span>
+          </div>
+          <div class="item__sub">
+            LOCUS 2025, 21st National Technological Festival, IOE Pulchowk Campus
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Organizer and Graphics Designer</span>
+            <span class="item__meta">2024</span>
+          </div>
+          <div class="item__sub">Yathartha Tech Fest, IOE Thapathali Campus</div>
+          <ul class="points">
+            <li>Coordinated and ran technical events, managing scheduling and on-the-day logistics.</li>
+            <li>Designed graphics and visual material for the event.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <div class="cert-item">
+          <span class="c-title">
+            CS50x: Introduction to Computer Science,
+            <span class="c-issuer">Harvard University</span>
+          </span>
+          <a
+            class="link"
+            href="https://cs50.harvard.edu/certificates/e955f42e-5818-4fb7-8e48-5c1e2a5f59e4"
+            target="_blank"
+            rel="noreferrer"
+            >Verify</a
+          >
+        </div>
+        <div class="cert-item">
+          <span class="c-title">
+            CS50AI: Introduction to Artificial Intelligence with Python,
+            <span class="c-issuer">Harvard University</span>
+          </span>
+          <a
+            class="link"
+            href="https://cs50.harvard.edu/certificates/c2369b0d-46a1-45c2-bba9-36a565e78c3c"
+            target="_blank"
+            rel="noreferrer"
+            >Verify</a
+          >
+        </div>
+        <div class="cert-item">
+          <span class="c-title">
+            Elements of AI (2 ECTS credits),
+            <span class="c-issuer">University of Helsinki</span>
+          </span>
+          <a
+            class="link"
+            href="https://certificates.mooc.fi/validate/bxxhg1z8wmc"
+            target="_blank"
+            rel="noreferrer"
+            >Verify</a
+          >
+        </div>
+      </section>
+
+      <section>
+        <h2>Honors and Awards</h2>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">Best Final Year Project</span>
+            <span class="item__meta">2026</span>
+          </div>
+          <div class="item__body">
+            Selected by the Department Project Committee and presented at the 4th Thapathali Graduate
+            Conference, IOE, Thapathali Campus.
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__head">
+            <span class="item__title">First-author Peer-reviewed Publication</span>
+            <span class="item__meta">2025</span>
+          </div>
+          <div class="item__body">
+            Author recognition from the International Journal on Engineering Technology (InJET) for
+            the published PM2.5 estimation paper.
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="grid2">
+          <div class="k">Languages</div>
+          <div>Python, C, C++, SQL</div>
+          <div class="k">Machine Learning</div>
+          <div>
+            Deep neural networks, Gradient boosting (XGBoost), Multimodal learning, Model training
+            and evaluation, scikit-learn
+          </div>
+          <div class="k">Mathematics</div>
+          <div>Linear algebra, Probability and statistics, Optimization, Calculus</div>
+          <div class="k">Data</div>
+          <div>
+            Cleaning and preprocessing, NumPy and pandas, Feature engineering, Time-series and
+            geospatial data
+          </div>
+          <div class="k">Tools and Web</div>
+          <div>Git and GitHub, Node.js, TypeScript, Flutter, Flask, HTML and CSS, Matplotlib</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
