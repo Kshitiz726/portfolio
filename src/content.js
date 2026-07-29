@@ -30,7 +30,7 @@ export const profile = {
   // Paragraphs are split on the blank line between them.
   bio: `I like what sits underneath: the core systems, how neural networks actually work, and the mathematics moving under the data. Give me numbers and I am happy, and I would rather wrestle an odd, hard problem than redo one that is already solved.
 
-For a master's, I am drawn to where mathematics meets AI: machine learning, applied and computational mathematics, and quantitative finance. Markets, risk, and the numbers behind them are what pull at me most.`,
+For a master's, I am drawn to where mathematics meets AI: machine learning, applied and computational mathematics, and the systems that make models run at scale.`,
 
   location: 'Kathmandu, Nepal',
   email: 'kshitizrajpaudyal@gmail.com',
@@ -189,7 +189,7 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Outreach Manager and Developer (Freelance, Remote)',
+    role: 'Developer and Outreach Manager (Freelance, Remote)',
     org: 'The Social Globe, United Kingdom (Company No. 13923693)',
     period: 'Oct 2025 to Jun 2026',
     points: [
