@@ -193,8 +193,8 @@ export const experience = [
     org: 'The Social Globe, United Kingdom (Company No. 13923693)',
     period: 'Oct 2025 to Jun 2026',
     points: [
-      'Managed outreach and communications remotely for the UK-registered company as a freelance Outreach Manager.',
-      'Contributed to website and application development alongside outreach responsibilities.',
+      'Contributed to website and application development.',
+      'Managed outreach and communications remotely for the UK-registered company.',
     ],
   },
   {
