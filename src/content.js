@@ -125,7 +125,7 @@ export const projects = [
     summary:
       'A cross-platform ADHD-focused productivity, wellness, and community app built on a single idea: plan your day by energy, not priority, inside a deliberately low-stimulation interface. Tasks are grouped by energy level so you take on work that matches how you feel, and the whole UI can desaturate and quiet itself on demand.',
     outcome:
-      'Launching soon at ourmynd.com. Registered as a UK trademark (No. UK00004421008).',
+      'Launching soon at ourmynd.com. Registered under UK Gov, registered trademark.',
     stack: [
       'Flutter (Android, iOS, web, desktop)',
       'Node.js',
@@ -198,7 +198,7 @@ export const projects = [
 export const experience = [
   {
     role: 'Developer and Outreach Manager (Freelance, Remote)',
-    org: 'The Social Globe, United Kingdom (Company No. 13923693)',
+    org: 'The Social Globe, United Kingdom (registered under UK Gov)',
     period: 'Oct 2025 to Jun 2026',
     points: [
       'Contributed to website and application development.',
