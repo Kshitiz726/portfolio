@@ -34,7 +34,7 @@ For a master's, I am drawn to where mathematics meets AI: machine learning, appl
 
   location: 'Kathmandu, Nepal',
   email: 'kshitizrajpaudyal@gmail.com',
-  phone: '+977 9742899808',
+  phone: '',
   resume: '/cv.html', // Print-ready CV page in public/; open it and use the browser's Print to PDF for a file copy.
   // Full-length campus portrait, shown beside the name in the hero.
   photo: '/campus.jpg',
