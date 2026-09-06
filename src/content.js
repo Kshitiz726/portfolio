@@ -55,7 +55,7 @@ export const education = [
     degree: 'Bachelor of Engineering (B.E.), Computer Engineering',
     institution: 'Institute of Engineering, Thapathali Campus, Tribhuvan University',
     period: '2022 to 2026',
-    detail: 'Aggregate 76.29%.',
+    detail: 'Aggregate 76.32%.',
   },
   {
     degree: 'Higher Secondary Education (Grade 11–12), Science',
