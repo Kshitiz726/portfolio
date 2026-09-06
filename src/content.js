@@ -410,6 +410,20 @@ export const certifications = [
     ],
   },
   {
+    title: 'Coding for Data',
+    awarder: 'Sololearn',
+    year: '2026',
+    detail: 'A course on programming for data work, completed 6 September 2026.',
+    stats: ['CC-ANXH6XP8'],
+    media: [
+      {
+        src: '/certificates/coding_for_data.jpg',
+        caption: 'Sololearn Coding for Data course certificate, issued 6 September 2026',
+        url: 'https://www.sololearn.com/certificates/CC-ANXH6XP8',
+      },
+    ],
+  },
+  {
     title: 'Basic Web Design & Development',
     awarder: 'HUB IT Training & Solution, Butwal',
     // The course ran Apr–Jul 2019; the certificate was issued 29/09/2021.
