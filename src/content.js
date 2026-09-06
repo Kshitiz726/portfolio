@@ -340,6 +340,21 @@ export const certifications = [
     ],
   },
   {
+    title: 'Supervised Machine Learning: Regression and Classification',
+    awarder: 'DeepLearning.AI and Stanford Online, via Coursera',
+    year: '2026',
+    detail:
+      'The first course of the Machine Learning Specialization, covering linear and logistic regression and gradient descent.',
+    media: [
+      {
+        src: '/certificates/stanford_certificate-1.png',
+        caption:
+          'Supervised Machine Learning: Regression and Classification certificate, issued 6 September 2026',
+        url: 'https://coursera.org/share/9770f059895585b10cf8ebab2e8e4f61',
+      },
+    ],
+  },
+  {
     title: 'Elements of AI',
     awarder: 'University of Helsinki',
     year: '2026',
