@@ -355,6 +355,20 @@ export const certifications = [
     ],
   },
   {
+    title: 'Software Architecture',
+    awarder: 'University of Alberta, via Coursera',
+    year: '2026',
+    detail:
+      'A course on architectural styles, design patterns, and documenting the architecture of large software systems.',
+    media: [
+      {
+        src: '/certificates/university_of_alberta.png',
+        caption: 'Software Architecture certificate, issued 7 September 2026',
+        url: 'https://coursera.org/share/53e42a9f9f36ae79d6421e0333f8aa73',
+      },
+    ],
+  },
+  {
     title: 'Elements of AI',
     awarder: 'University of Helsinki',
     year: '2026',
