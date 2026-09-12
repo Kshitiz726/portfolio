@@ -311,6 +311,21 @@ export const achievements = [
    carries a public verification link. */
 export const certifications = [
   {
+    title: 'Machine Learning Specialization',
+    awarder: 'University of Washington, via Coursera',
+    year: '2026',
+    detail:
+      'A four-course specialization on regression, classification, clustering, and information retrieval, taught through applied case studies.',
+    stats: ['4 courses'],
+    media: [
+      {
+        src: '/certificates/ML_wasington.png',
+        caption: 'Machine Learning Specialization certificate, issued 12 September 2026',
+        url: 'https://coursera.org/share/d6328f1343eb7e1afaaf9d002d76f134',
+      },
+    ],
+  },
+  {
     title: 'CS50AI: Introduction to Artificial Intelligence with Python',
     awarder: 'Harvard University',
     year: '2026',
@@ -397,19 +412,6 @@ export const certifications = [
     ],
   },
   {
-    title: 'Developing Applications with Apache Spark™',
-    awarder: 'Databricks Academy',
-    year: '2026',
-    detail: 'A Databricks Academy course on building applications with Apache Spark.',
-    media: [
-      {
-        src: '/certificates/databricks.png',
-        caption:
-          'Developing Applications with Apache Spark certificate, completed 28 July 2026',
-      },
-    ],
-  },
-  {
     title: 'Advanced SQL for Query Tuning and Performance Optimization',
     awarder: 'LinkedIn Learning',
     year: '2026',
@@ -420,20 +422,6 @@ export const certifications = [
         caption:
           'Advanced SQL for Query Tuning and Performance Optimization certificate, completed 28 July 2026',
         url: 'https://www.linkedin.com/learning/certificates/61597b3fd25643c89c2dc02ba0fb4eae8cf17d98bcc77eef70d78935adbba527',
-      },
-    ],
-  },
-  {
-    title: 'Coding for Data',
-    awarder: 'Sololearn',
-    year: '2026',
-    detail: 'A course on programming for data work, completed 6 September 2026.',
-    stats: ['CC-ANXH6XP8'],
-    media: [
-      {
-        src: '/certificates/coding_for_data.jpg',
-        caption: 'Sololearn Coding for Data course certificate, issued 6 September 2026',
-        url: 'https://www.sololearn.com/certificates/CC-ANXH6XP8',
       },
     ],
   },
