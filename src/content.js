@@ -105,9 +105,10 @@ export const research = [
   {
     title: 'Multimodal AI System for Clip Extraction from Long Videos',
     authors: [{ name: 'Kshitiz Raj Paudyal', corresponding: true }],
-    venue: 'Manuscript in preparation, based on the undergraduate final year project',
+    venue:
+      'Journal of Innovations in Engineering Education. Based on the undergraduate final year project',
     year: '2026',
-    status: 'Ongoing',
+    status: 'In press',
     url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     media: [
       {
@@ -146,7 +147,7 @@ export const projects = [
     summary:
       'Takes a long video and pulls out the short clips worth keeping. It scores each scene on three channels at once, what is shown, what is said, and what is heard, then fuses those scores to rank the strongest moments and cut them automatically.',
     outcome:
-      'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026.',
+      'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026. The paper is forthcoming in the Journal of Innovations in Engineering Education.',
     stack: ['Python', 'BERT', 'Multimodal deep learning'],
     repo: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     demo: '',
