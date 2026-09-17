@@ -108,7 +108,7 @@ export const research = [
     venue:
       'Journal of Innovations in Engineering Education. Based on the undergraduate final year project',
     year: '2026',
-    status: 'In press',
+    status: 'Forthcoming',
     url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     media: [
       {
