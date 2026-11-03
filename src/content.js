@@ -103,12 +103,19 @@ export const research = [
     ],
   },
   {
-    title: 'Multimodal AI System for Clip Extraction from Long Videos',
-    authors: [{ name: 'Kshitiz Raj Paudyal', corresponding: true }],
+    title:
+      'A Multimodal AI System for Ranking and Extracting Highlight Clips from Long-form Videos Using Visual, Audio, and Textual Fusion',
+    authors: [
+      { name: 'Kshitiz Raj Paudyal' },
+      { name: 'Ashlim Tamang', corresponding: true },
+      { name: 'Neha Shah' },
+      { name: 'Sushma Bhattarai' },
+      { name: 'Anup Shrestha' },
+    ],
     venue:
-      'Journal of Innovations in Engineering Education. Based on the undergraduate final year project',
+      'Journal of Innovations in Engineering Education (JIEE), Thapathali Campus, IOE, Tribhuvan University. Based on the undergraduate final year project',
     year: '2026',
-    status: 'Forthcoming',
+    status: 'Submitted',
     url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     links: [
       { label: 'Try the project on the web', url: '/clipranker/' },
@@ -151,7 +158,7 @@ export const projects = [
     summary:
       'Takes a long video and pulls out the short clips worth keeping. It scores each scene on three channels at once, what is shown, what is said, and what is heard, then fuses those scores to rank the strongest moments and cut them automatically.',
     outcome:
-      'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026. The paper is forthcoming in the Journal of Innovations in Engineering Education.',
+      'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026. The paper has been submitted to the Journal of Innovations in Engineering Education (JIEE).',
     stack: ['Python', 'BERT', 'Multimodal deep learning'],
     repo: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     demo: '/clipranker/',
