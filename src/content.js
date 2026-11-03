@@ -111,7 +111,7 @@ export const research = [
     status: 'Forthcoming',
     url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     links: [
-      { label: 'Try ClipRanker', url: '/clipranker/' },
+      { label: 'Try the project on the web', url: '/clipranker/' },
       { label: 'Code', url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT' },
     ],
     media: [
@@ -155,7 +155,7 @@ export const projects = [
     stack: ['Python', 'BERT', 'Multimodal deep learning'],
     repo: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
     demo: '/clipranker/',
-    demoLabel: 'Try ClipRanker',
+    demoLabel: 'Try the project on the web',
     // Inline click-to-play player; videoStart jumps in at 3:35 (215s).
     video: 'MG6cTkaCo7Y',
     videoStart: 215,
@@ -292,7 +292,7 @@ export const achievements = [
     detail:
       'Selected as one of the best final year projects by the Department Project Committee for "Multimodal AI System for Clip Extraction from Long Videos", and presented at the 4th Thapathali Graduate Conference on 5 June 2026.',
     links: [
-      { label: 'Try ClipRanker', url: '/clipranker/' },
+      { label: 'Try the project on the web', url: '/clipranker/' },
       { label: 'Code', url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT' },
     ],
     media: [
