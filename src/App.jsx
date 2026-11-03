@@ -225,6 +225,15 @@ function Home() {
                       </a>
                     </p>
                   )}
+                  {r.links?.length > 0 && (
+                    <div className="card__links entry__links">
+                      {r.links.map((l) => (
+                        <a key={l.url} href={l.url} target="_blank" rel="noreferrer">
+                          {l.label}
+                        </a>
+                      ))}
+                    </div>
+                  )}
                   <MediaStrip media={r.media} onOpen={openViewer} />
                 </li>
               ))}
@@ -353,6 +362,15 @@ function Home() {
                         <li key={s}>{s}</li>
                       ))}
                     </ul>
+                  )}
+                  {a.links?.length > 0 && (
+                    <div className="card__links entry__links">
+                      {a.links.map((l) => (
+                        <a key={l.url} href={l.url} target="_blank" rel="noreferrer">
+                          {l.label}
+                        </a>
+                      ))}
+                    </div>
                   )}
                   <MediaStrip media={a.media} onOpen={openViewer} />
                 </li>

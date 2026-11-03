@@ -110,6 +110,10 @@ export const research = [
     year: '2026',
     status: 'Forthcoming',
     url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
+    links: [
+      { label: 'Try ClipRanker', url: '/clipranker/' },
+      { label: 'Code', url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT' },
+    ],
     media: [
       {
         src: '/certificates/best_project_conference.jpg',
@@ -287,6 +291,10 @@ export const achievements = [
     year: '2026',
     detail:
       'Selected as one of the best final year projects by the Department Project Committee for "Multimodal AI System for Clip Extraction from Long Videos", and presented at the 4th Thapathali Graduate Conference on 5 June 2026.',
+    links: [
+      { label: 'Try ClipRanker', url: '/clipranker/' },
+      { label: 'Code', url: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT' },
+    ],
     media: [
       {
         src: '/certificates/best_project_conference.jpg',
