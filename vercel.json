@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/clipranker", "destination": "/clipranker/", "permanent": true }
+  ]
+}

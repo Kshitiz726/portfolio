@@ -150,7 +150,8 @@ export const projects = [
       'Selected as one of the best final year projects by the Department Project Committee and presented at the 4th Thapathali Graduate Conference, June 2026. The paper is forthcoming in the Journal of Innovations in Engineering Education.',
     stack: ['Python', 'BERT', 'Multimodal deep learning'],
     repo: 'https://github.com/Kshitiz726/Semantic-Video-Synthesis-with-BERT',
-    demo: '',
+    demo: '/clipranker/',
+    demoLabel: 'Try ClipRanker',
     // Inline click-to-play player; videoStart jumps in at 3:35 (215s).
     video: 'MG6cTkaCo7Y',
     videoStart: 215,
