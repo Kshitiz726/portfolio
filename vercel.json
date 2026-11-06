@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/clipranker", "destination": "/clipranker/", "permanent": true }
+    { "source": "/clipranker", "destination": "/clipranker/", "permanent": true },
+    { "source": "/cv.html", "destination": "/Kshitiz_Raj_Paudyal_CV.pdf", "permanent": false }
   ]
 }

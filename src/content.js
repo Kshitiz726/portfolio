@@ -35,7 +35,7 @@ For a master's, I am drawn to where mathematics meets AI: machine learning, appl
   location: 'Kathmandu, Nepal',
   email: 'kshitizrajpaudyal@gmail.com',
   phone: '',
-  resume: '/cv.html', // Print-ready CV page in public/; open it and use the browser's Print to PDF for a file copy.
+  resume: '/Kshitiz_Raj_Paudyal_CV.pdf', // PDF in public/; replace this file to update the CV.
   // Full-length campus portrait, shown beside the name in the hero.
   photo: '/campus.jpg',
   photoAlt: 'Kshitiz Raj Paudyal at the Institute of Engineering, Thapathali Campus',
