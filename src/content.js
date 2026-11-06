@@ -372,49 +372,6 @@ export const certifications = [
     ],
   },
   {
-    title: 'Supervised Machine Learning: Regression and Classification',
-    awarder: 'DeepLearning.AI and Stanford Online, via Coursera',
-    year: '2026',
-    detail:
-      'The first course of the Machine Learning Specialization, covering linear and logistic regression and gradient descent.',
-    media: [
-      {
-        src: '/certificates/stanford_certificate-1.png',
-        caption:
-          'Supervised Machine Learning: Regression and Classification certificate, issued 6 September 2026',
-        url: 'https://coursera.org/share/9770f059895585b10cf8ebab2e8e4f61',
-      },
-    ],
-  },
-  {
-    title: 'Software Architecture',
-    awarder: 'University of Alberta, via Coursera',
-    year: '2026',
-    detail:
-      'A course on architectural styles, design patterns, and documenting the architecture of large software systems.',
-    media: [
-      {
-        src: '/certificates/university_of_alberta.png',
-        caption: 'Software Architecture certificate, issued 7 September 2026',
-        url: 'https://coursera.org/share/53e42a9f9f36ae79d6421e0333f8aa73',
-      },
-    ],
-  },
-  {
-    title: 'Elements of AI',
-    awarder: 'University of Helsinki',
-    year: '2026',
-    detail: 'A 2 ECTS credit online course on the foundations of artificial intelligence.',
-    stats: ['2 ECTS credits'],
-    media: [
-      {
-        src: '/certificates/certificate-elements-of-ai.png',
-        caption: 'Elements of AI certificate of completion, issued 27 July 2026',
-        url: 'https://certificates.mooc.fi/validate/bxxhg1z8wmc',
-      },
-    ],
-  },
-  {
     title: 'Data Visualization with Python',
     awarder: 'IBM Developer Skills Network',
     year: '2026',
@@ -425,20 +382,6 @@ export const certifications = [
         src: '/certificates/ibm-data-visualization.png',
         caption: 'Data Visualization with Python certificate, issued 19 July 2026',
         url: 'https://courses.cognitiveclass.ai/certificates/8584e5c0d33f4f4c8ac2b66f94673d92',
-      },
-    ],
-  },
-  {
-    title: 'Advanced SQL for Query Tuning and Performance Optimization',
-    awarder: 'LinkedIn Learning',
-    year: '2026',
-    detail: 'A course on SQL query tuning and performance optimization, completed 28 July 2026.',
-    media: [
-      {
-        src: '/certificates/advance_sql.png',
-        caption:
-          'Advanced SQL for Query Tuning and Performance Optimization certificate, completed 28 July 2026',
-        url: 'https://www.linkedin.com/learning/certificates/61597b3fd25643c89c2dc02ba0fb4eae8cf17d98bcc77eef70d78935adbba527',
       },
     ],
   },
