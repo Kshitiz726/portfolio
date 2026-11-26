@@ -210,12 +210,12 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Developer and Outreach Manager (Freelance, Remote)',
-    org: 'The Social Globe, United Kingdom (registered under UK Gov)',
-    period: 'Oct 2025 to Jun 2026',
+    role: 'Freelance Software Developer (Remote)',
+    org: 'The Social Circle (The Social Globe Ltd), United Kingdom',
+    period: 'Oct 2025 to Present',
     points: [
-      'Contributed to website and application development.',
-      'Managed outreach and communications remotely for the UK-registered company.',
+      'Building the AI coach and focus rooms for OurMynd (ourmynd.com), an ADHD productivity iOS app (pre-launch), across the full stack with Flutter, Node.js, TypeScript, PostgreSQL and Redis.',
+      'Designing, developing and maintaining websites and back-end systems for the company and the brands it manages, collaborating remotely with a UK-based team.',
     ],
   },
   {
